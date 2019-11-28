@@ -1,0 +1,52 @@
+
+#linha{
+    
+    line-height: 190px;
+}
+
+#l2c2{
+    border: 3px;
+    border-style: solid;
+    border-color: black;;
+}
+#l1c1{
+    border-right: 3px;
+    border-right-style: solid;
+    border-right-color: black;
+}
+#l2c1 {
+    border-top: 3px;
+    border-top-style: solid;
+    border-top-color: black;;
+}
+#l3c1{
+    border-top: 3px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+h1{
+    text-align: center;
+}
+#l2c3 {
+    border-top: 3px;
+    border-top-style: solid;
+    border-top-color: black;;
+}
+#l1c3{
+    border-left: 3px;
+    border-left-style: solid;
+    border-left-color: blackleft
+}
+#l3c2{
+    border-left: 3px;
+    border-left-style: solid;
+    border-left-color: black;
+}
+#l3c3{
+    border-left: 3px;
+    border-top: 3px;
+    border-top-style: solid
+    ;
+    border-left-style: solid;
+    border-left-color: black;
+}
