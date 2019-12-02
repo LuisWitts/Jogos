@@ -1,52 +1,44 @@
-
-#linha{
-    
-    line-height: 190px;
+body{
+    background-color: brown;
 }
-
-#l2c2{
-    border: 3px;
-    border-style: solid;
-    border-color: black;;
+.coluna{
+    height: 100px;
+    text-align: center;
+    margin:auto;
+    background-color: white;
+    border: 1px solid black;
 }
-#l1c1{
-    border-right: 3px;
-    border-right-style: solid;
-    border-right-color: black;
+#titulo{
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-align: center;
+    text-shadow: black 1px 1px 5px;
+    margin-top: 150px;
 }
-#l2c1 {
-    border-top: 3px;
-    border-top-style: solid;
-    border-top-color: black;;
+#rodape{
+    background-color: rgb(15, 184, 15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+    text-align: center;
+    text-shadow: black 1px 1px 5px;
 }
-#l3c1{
-    border-top: 3px;
-    border-top-style: solid;
-    border-top-color: black;
+img{
+    height: 80px;
+    width: auto;
 }
 h1{
     text-align: center;
 }
-#l2c3 {
-    border-top: 3px;
-    border-top-style: solid;
-    border-top-color: black;;
+#slogan{
+    height: 90%;
+    width: 100%;
 }
-#l1c3{
-    border-left: 3px;
-    border-left-style: solid;
-    border-left-color: blackleft
-}
-#l3c2{
-    border-left: 3px;
-    border-left-style: solid;
-    border-left-color: black;
-}
-#l3c3{
-    border-left: 3px;
-    border-top: 3px;
-    border-top-style: solid
-    ;
-    border-left-style: solid;
-    border-left-color: black;
+#linha1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
 }

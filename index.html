@@ -10,35 +10,86 @@
     <link rel="stylesheet" href="style.css">
     <script src="code.js"></script>
 
-    <title>Jogo da Velha</title>
-  </head>
-  <body>
-      <div class="row">
-          <div class="col-md-12">
-            <h1>O Jogo Da Véia</h1>
-          </div>
+    <div class="container-">
+    <div class="row" id="linha1">
+        <div class="col-md-3" >
+          <img id="slogan" src="grifi.png" alt="">
         </div>
 
-     <div class="container " id="linha">
-        <div class="row " id="borda1">
-            <div class="col-md-4 coluna" id="l1c1" 
-            >5</div>
-            <div class="col-md-4 coluna" id="l1c2">5</div>
-            <div class="col-md-4 coluna" id="l1c3">5</div>
+        <div class="col-md-6" >
+          <img id="slogan" src="novoslogan.png" alt="">
         </div>
 
-        <div class="row" id="borda2">
-            <div class="col-md-4 coluna" id="l2c1">5</div>
-            <div class="col-md-4 coluna" id="l2c2">5</div>
-            <div class="col-md-4 coluna" id="l2c3">5</div>
+        <div class="col-md-3" >
+          <img id="slogan" src="sonse.png" alt="">
         </div>
-
-        <div class="row" id="borda3">
-            <div class="col-md-4 coluna" id="l3c1">5</div>
-            <div class="col-md-4 coluna" id="l3c2">5</div>
-            <div class="col-md-4 coluna" id="l3c3">5</div>
-        </div>
+    </div>]
     </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1> Jogo Da Velha </h1>
+
+      </div>
+    </div>
+    
+  </head>
+
+  <body>
+    <div id="teste"></div>  
+      <div class="row">
+        <div class="col-md-12">
+      </div>
+    </div>
+
+    <div class="container " class="linha">
+      <div class="row " id="borda1">
+          <div class="col-md-4 coluna" id="l1c1" onclick="joga('l1c1')"></div>
+          <div class="col-md-4 coluna" id="l1c2" onclick="joga('l1c2')"></div>
+          <div class="col-md-4 coluna" id="l1c3" onclick="joga('l1c3')"></div>
+      </div>  
+
+      <div class="row" class="linha">
+          <div class="col-md-4 coluna" id="l2c1" onclick="joga('l2c1')"></div>
+          <div class="col-md-4 coluna" id="l2c2" onclick="joga('l2c2')"></div>
+          <div class="col-md-4 coluna" id="l2c3" onclick="joga('l2c3')"></div>
+      </div>
+
+      <div class="row" class="linha">
+          <div class="col-md-4 coluna" id="l3c1" onclick="joga('l3c1')"></div>
+          <div class="col-md-4 coluna" id="l3c2" onclick="joga('l3c2')"></div>
+          <div class="col-md-4 coluna" id="l3c3" onclick="joga('l3c3')"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+            &nbsp;
+        </div>
+
+        <div class="col-md-6" id="rodape">
+            <h1>Vez do Jogador 1</h1>
+        </div>
+        
+        <div class="col-md-3">
+            &nbsp;
+        </div>
+      </div>
+    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
